@@ -1,0 +1,93 @@
+/* -------------  HEADER SECTION START -----------*/
+
+
+
+
+
+header {
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 80px;
+
+
+        &__list {
+
+            display: flex;
+            justify-content: space-between;
+            width: 40%;
+
+
+            &--item {
+                list-style-type: none;
+
+
+                &-link {
+                    color: #fff;
+                    text-decoration: none;
+                }
+                & :hover{
+                    color: #babec4;
+                }
+
+                .active{
+                    color: #4177dc;
+                    text-shadow: 0px 0px 32px #346dda;
+                }
+
+            }
+
+        }
+
+        &__menu {
+            font-size: 32px;
+            color: #fff;
+            display: none;
+        }
+    }
+
+}
+
+/* -------------  HEADER SECTION END -----------*/
+
+
+@media only screen and (max-width: 768px) {
+
+    header {
+
+        .nav {
+            padding: 0 20px;
+
+            &__list{
+                display: none;
+            }
+            &__menu {
+                display: block;
+            }
+        }
+    }
+
+}
+
+@media only screen and (max-width: 375px) {
+
+    header {
+
+        .nav {
+            padding: 0 20px;
+
+            &__list{
+                display: none;
+            }
+            &__menu {
+                display: block;
+            }
+        }
+    }
+
+}

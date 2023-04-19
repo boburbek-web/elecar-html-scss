@@ -1,0 +1,110 @@
+// =============== OFFER SECTION START =================
+.offer {
+  padding: 0 0 56px 0;
+  background-image: url(../../images/backgroundOffer.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+
+
+  &s {
+    width: 100%;
+    padding: 50px 0px;
+    display: flex;
+    justify-content: space-between;
+    background: transparent;
+
+    &-info {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      background: transparent;
+      width: 40%;
+
+    }
+
+
+    &-con {
+      background: transparent;
+      margin-top: 30px;
+    }
+
+    &-about {
+      background: transparent;
+      font-family: 'Exo';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 140%;
+      color: #BABEC4;
+    }
+
+    &-info-title {
+      font-family: 'Exo';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 32px;
+      background: transparent;
+    }
+
+    &-image {
+      background: transparent;
+      width: 60%;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  .alone3 {
+    background: transparent;
+  }
+
+
+  .btn {
+    width: 149px;
+    height: 50px;
+    background: #4177dc;
+    border-radius: 4px;
+    border: 0px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ffffffff;
+
+  }
+}
+
+
+@media only screen and (max-width:768px) {
+  .offers {
+    display: block;
+
+    &-info {
+      width: 100%;
+      text-align: center;
+      align-items: center;
+
+
+    }
+
+   
+    &-about {
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    &-image {
+      width: 100%;
+    }
+
+    img {
+      margin-top: 2rem;
+    }
+
+  }
+}
+
+// =============== OFFER SECTION END =================

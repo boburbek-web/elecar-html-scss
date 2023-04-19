@@ -1,0 +1,130 @@
+/* =========================== Feature Container Start =======================   */
+
+.features-container {
+  /* background-color: rgb(240, 43, 43); */
+  min-height: 713px;
+  background-color: #000;
+  overflow: hidden;
+
+  .features {
+    position: relative;
+    background-color: #fff !important;
+    height: auto;
+  }
+
+  .image-alone {
+    position: absolute;
+    margin: 170px auto 80px;
+    background: transparent;
+    width: 200px;
+    left: 40%;
+    z-index: 1;
+    height: 462.53px;
+  }
+
+  .information-img {
+    width: 127px;
+    height: 92px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(8px);
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+
+  & p {
+    background: transparent;
+    align-items: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+  }
+
+  & h3 {
+    background: transparent;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+  }
+}
+
+  & .back {
+    transform: rotate(-2.3deg);
+    position: absolute;
+    width: 750px;
+    height: 705.42px;
+    left: 160px;
+    bottom: -730px;
+    z-index: 0;
+  }
+
+  .img1 {
+    z-index: 3;
+    right: 580px;
+    top: 250px;
+  }
+
+  .img2 {
+    z-index: 3;
+    right: 580px;
+    top: 470px;
+  }
+
+  .img3 {
+    z-index: 3;
+    right: 350px;
+    top: 340px;
+  }
+}
+
+@media only screen and (max-width:768px) {
+  .features-container {
+    overflow: hidden;
+
+    .features {
+      position: relative;
+      background-color: #fff !important;
+      height: auto;
+
+      & .back {
+        width: 750px;
+        height: 750px;
+        left: -12rem;
+      }
+
+    }
+
+    .image-alone {
+      position: absolute;
+      margin: 170px auto 80px;
+      background: transparent;
+      width: 200px;
+      left: 20%;
+      z-index: 1;
+      height: 462.53px;
+    }
+
+    .img1 {
+      z-index: 3;
+      right: auto;
+      top: 250px;
+    }
+
+    .img2 {
+      z-index: 3;
+      right: auto;
+      top: 470px;
+    }
+
+    .img3 {
+      right: 0;
+      top: 340px;
+    }
+
+
+  }
+}
+
+/* =========================== Feature Container END =======================   */
